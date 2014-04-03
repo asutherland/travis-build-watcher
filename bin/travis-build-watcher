@@ -1,0 +1,4 @@
+#! /usr/bin/env node
+
+var watchPullRequest = require('../watch-pull-request.js');
+watchPullRequest.main(process.argv);

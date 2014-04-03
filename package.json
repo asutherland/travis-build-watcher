@@ -1,0 +1,18 @@
+{
+  "name": "travis-build-watcher",
+  "version": "0.0.1",
+  "description": "watch travis builds based on build id or github pull requests",
+  "homepage": "https://github.com/asutherland/travis-build-watcher",
+  "license": "MIT",
+  "author": "Andrew Sutherland <asutherland@asutherland.org>",
+  "main": "watch-pull-request.js",
+  "bin": {
+    
+  },
+  "dependencies": {
+    "commander": "~2.1.0",
+    "github": "~0.1.14",
+    "q": "~1.0.1",
+    "travis-ci": "~1.2.0"
+  }
+}
